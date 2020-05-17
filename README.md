@@ -2,6 +2,8 @@
 
 The following application is a simple banking application
 
+The application can change the customer information 
+
 The application transfers money between different accounts
 
 Please download the application 
