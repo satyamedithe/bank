@@ -3,7 +3,7 @@
 
 
 
-This is a Simple basic banking application that transfer funds within an account
+<p>This is a Simple basic banking application that transfer funds within an account</p>
 
 
 
