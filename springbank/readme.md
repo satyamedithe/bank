@@ -1,3 +1,14 @@
+<h1> Banking Application <h1>
+
+
+
+
+This is a Simple basic banking application that transfer funds within an account
+
+
+
+
+
 -- Create table
 create table BANK_ACCOUNT
 (
