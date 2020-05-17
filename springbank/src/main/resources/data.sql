@@ -16,3 +16,20 @@ Insert into Bank_Account(ID, Full_Name, Balance) values (2, 'Savings', 2000);
 Insert into Bank_Account(ID, Full_Name, Balance) values (3, 'Money market', 3000);
  
 commit;
+
+
+DROP TABLE IF EXISTS CUSTOMER_INFORMATION;
+ 
+CREATE TABLE CUSTOMER_INFORMATION (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250) NOT NULL,
+  address VARCHAR(250) DEFAULT NULL,
+  phone BIGINT NOT NULL,
+  socialsecurity BIGINT NOT NULL
+);
+
+INSERT INTO 
+	CUSTOMER_INFORMATION (first_name, last_name, address,phone,socialsecurity) 
+VALUES
+  	('John', 'Doe', '123 Madison Lane,NJ','123446789','1234568890');
