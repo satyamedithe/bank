@@ -6,9 +6,12 @@ The application can change the customer information
 
 The application transfers money between different accounts
 
-Please download the application 
+Please download the application
+https://github.com/satyamedithe/bank.git 
 
-Import the application as maven application 
+click on clone or download option 
+
+Import the application as maven application from the download location after unzipping
 
 The springbank application is the pom that will import the application
 
