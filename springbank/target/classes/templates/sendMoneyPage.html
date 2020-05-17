@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+    
+   <body>      
+      <!-- Include _menu.html -->
+      <th:block th:include="/menu"></th:block>
+  
+      <h2>Send Money</h2>
+    <div class="container my-2">
+    <div class="card">
+    <div class="card-body">
+      <ul>
+         <li>1 - Current</li>
+         <li>2 - Savings</li>
+         <li>3 - Money market</li>
+      </ul>
+       
+      <div th:if="${errorMessage!=null}"
+           style="color:red;font-style:italic" th:utext="${errorMessage}">..</div>
+       
+      <form th:action="@{/sendMoney}" th:object="${sendMoneyForm}" method="POST">
+         <table>
+ 
+           <tr>
+              <td>From Bank Account Id</td>
+              <td><input type="text" th:field="*{fromAccountId}"/></td>
+           </tr>
+           <tr>
+              <td>To Bank Account Id</td>
+              <td><input type="text" th:field="*{toAccountId}"/></td>
+           </tr>
+            <tr>
+              <td>Amount</td>
+              <td><input type="text" th:field="*{amount}" /></td>
+           </tr>           
+           <tr>
+              <td>&nbsp;</td>
+              <td><input type="submit" value="Send"/></td>
+           </tr>       
+         </table>      
+      </form>
+      </div></div></div> 
+   </body>
+</html>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springbank
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: acer
+Implementation-Vendor-Id: com.springbootbank
+Build-Jdk: 1.8.0_241
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springbank
+Created-By: Maven Integration for Eclipse
+
