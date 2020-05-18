@@ -15,7 +15,7 @@ Import the application as maven application from the download location after unz
 
 The springbank application is the pom that will import the application
 
-Once done either update maven or simply goto the main class and right click and run as java application
+Once done either update maven or simply goto the main() class and right click and run as java application
 
 once the JVM starts just goto a web browser and type http://localhost:8081/
 
