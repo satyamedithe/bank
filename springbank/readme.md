@@ -15,7 +15,7 @@ https://github.com/satyamedithe/bank.git
 
 click on clone or download option 
 
-Import the application using eclipse as maven application from the download location after unzipping
+Import the application using eclipse as existing maven application from the download location after unzipping
 
 The springbank application is the pom that will import the application
 
