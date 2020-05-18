@@ -24,3 +24,5 @@ click on the menu links like customer information, accounts, send money etc.
 The application starts from localhost:8081 not 8080
 
 Thanks i have attached the screenshot for the application as well. 
+
+No Datasource of DB needed the current application comes with an embeddd h2 database and the schema and data are already in the resources folder.
