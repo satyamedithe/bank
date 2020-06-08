@@ -13,7 +13,7 @@ click on clone or download option
 
 Import the application as maven application from the download location after unzipping
 
-  The springbank application is the pom that will import the application
+    #The springbank application is the pom that will import the application
 
 Once done either update maven or simply goto the main() class and right click and run as java application
 
